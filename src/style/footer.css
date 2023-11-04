@@ -1,0 +1,33 @@
+.footerDivider {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    padding-right: 30px;
+}
+
+.Bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FB {
+    margin-left: 8px;
+}
+
+.tableDiv{
+    display: flex;
+    justify-content: space-around;
+}
+h5:hover{
+    color: blue;
+   
+}
+h5:hover{
+    transform: translateX(3px);
+    /* transition: 1s; */
+}
+h5{
+    transition: 1s;
+}

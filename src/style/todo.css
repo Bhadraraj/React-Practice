@@ -1,0 +1,80 @@
+ 
+
+*{
+    /* padding: 0;
+    box-sizing: border-box; */
+} 
+.todo{
+    width: 280px;
+    height: 70px;
+
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+ul li{
+    list-style-type: none;
+}
+.courseName{
+    width: 100px;
+}
+.btn{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    color:blueviolet ;
+    text-align: right;
+}
+#myCheckbox:checked  {
+    color: red;
+  }
+  section{
+    height: fit-content;
+    width: fit-content;
+
+    margin: auto;
+  }
+  h1{
+
+    font-size: 25px;
+  }
+  section
+  {
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius:0px 0px 20px 20px;
+    margin-bottom: 100px
+
+  }
+  .emptyList{
+    text-align: center;
+    color: rgb(245, 140, 140);
+  }
+  .addItem{
+    display: flex;
+justify-content: space-around;
+}
+.addItem input{
+
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: 1px solid blue;
+
+}  
+.addForm button{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.addItem{
+  height: 100px;
+  width: fit-content;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: auto auto;
+  padding: 20px 31px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: antiquewhite;
+}

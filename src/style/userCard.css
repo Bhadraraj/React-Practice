@@ -1,0 +1,23 @@
+.card
+{
+    height: 111px;
+width: 200px;
+background-color: aliceblue;
+padding: 10px;
+border-radius: 10px;
+border: 2px solid blue;
+
+margin: 10px;
+
+}
+.mainCard {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.red{
+    background-color: red;
+    /* font-size: ; */
+}
