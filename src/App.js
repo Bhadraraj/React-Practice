@@ -1,31 +1,42 @@
 
 import './App.css';
-import State from './state';
+// import State/ from './state';
 import List from './List';
 // import DateComp from './DateComp';
 import DateFnsComp from './DateFnsComp';
 import NameChange from './components/NameChange';
-import StyleObj from './components/StyleObj';
+// import StyleObj from './components/StyleObj';
 import Event from './components/Event';
-import UseState from './components/UseState';
+// import UseState from './components/UseState';
 // import TodoList from './components/TodoList';
 import TodoListMain  from './components/TodoListMain';
-import UserCard from './components/UserCard';
-import Footer from './components/Footer';
-import HeaderBar from './components/HeaderBar'
+// import UserCard from './components/UserCard';
+// import Footer from './components/Footer';
+// import HeaderBar from './components/HeaderBar';
+//  import Greeting from './components/Greeting';
+//  import LoginControl from './components/ConditionalRendering/LoginControl'
+// import Map from './components/Looping/Map';
+import ShoppingList from './components/ShoppingList/ShoppingList';
+import ShoppingListLocalStorage from './components/ShoppingList/ShoppingList'
 
+import DemoPage from './components/DemoPage';
 function App() {
   return (
     <>
+    <ShoppingListLocalStorage/>
+    <ShoppingList/>
+    {/* <Map/> */}
       <div className='header'>
         <h1 id='title'>   React JS - The Java Script  Library</h1>
       </div>
+      {/* <LoginControl/>
+      <Greeting isLoggedIn="Bhadri"/>
       <UserCard/> 
       <HeaderBar/>
       <Footer/>
       <State />
       <StyleObj/>
-      <UseState/> 
+      <UseState/>  */}
       <br/>
       {/* <TodoList/> */}
 
@@ -38,6 +49,8 @@ function App() {
       <NameChange/>
       <TodoListMain/>
 
+
+<DemoPage/>
 
 
     </>

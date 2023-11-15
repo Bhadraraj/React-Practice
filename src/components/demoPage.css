@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.containerMain{
+    height:fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.main{
+    height:150px;
+    width: 200px;
+    background-color: white;
+    margin: 10PX;
+}
+.top1{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(0, 51, 255);
+    border-radius: 5px 5px 0px 0px ;
+}
+.top2{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(255, 226, 83);
+    border-radius: 5px 5px 0px 0px ;
+}
+.top3{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(19, 103, 43); 
+    border-radius: 5px 5px 0px 0px ;
+}
+.top4{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(255, 226, 83);
+
+    border-radius: 5px 5px 0px 0px ;
+}
+.top5{
+    height: 5px;
+    width: 200px;
+    background-color: rgb(0, 51, 255);
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.bottom{
+    height: 145px;
+    width: 200px;
+
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 0px 0px 5px 5px ;
+    padding-left: 20px ;
+    padding-top: 20px;
+}
+.impression{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgb(0, 51, 255);
+}
+.click{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgb(255, 226, 83);
+}
+.ctr{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgb(6, 64, 22);
+}
+.orders{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 187);
+}
+.lowerTextCont{
+    height: 70px ;
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+.rightCont div , .rightCont div, p{
+    display: inline-block;
+
+
+}
+.rightCont p{
+margin: 0px 5px;
+}
