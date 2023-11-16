@@ -8,7 +8,7 @@ body {
     overflow: hidden;
     padding: 60px 20px 20px;
     border-radius: 5px;
-    background-color: #10569b;
+    background-color: rgb(50, 127, 205);
     margin: 30px 40px;
     box-shadow: 0 10px 40px -14px rgba(135, 144, 158, 0.6), 0 10px 40px -10px rgba(135, 144, 158, 0.6);
   }

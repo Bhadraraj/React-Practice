@@ -18,11 +18,12 @@ import TodoListMain  from './components/TodoListMain';
 // import Map from './components/Looping/Map';
 import ShoppingList from './components/ShoppingList/ShoppingList';
 import ShoppingListLocalStorage from './components/ShoppingList/ShoppingList'
-
+import Movie1 from './components/MovieApp/Movie1';
 import DemoPage from './components/DemoPage';
 function App() {
   return (
-    <>
+    <>  
+    <Movie1/>
     <ShoppingListLocalStorage/>
     <ShoppingList/>
     {/* <Map/> */}
