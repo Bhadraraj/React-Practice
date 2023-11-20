@@ -18,14 +18,18 @@ import TodoListMain  from './components/TodoListMain';
 // import Map from './components/Looping/Map';
 import ShoppingList from './components/ShoppingList/ShoppingList';
 import ShoppingListLocalStorage from './components/ShoppingList/ShoppingList'
-import Movie1 from './components/MovieApp/Movie1';
+// import Movie1 from './components/MovieApp/Movie1';
+// import MovieDemo from './components/MovieApp/MovieDemo';
+import Movie from './components/MovieApp/Movie';
 import DemoPage from './components/DemoPage';
 function App() {
   return (
     <>  
-    <Movie1/>
+    <Movie/>
+    {/* <MovieDemo/> */}
+    {/* <Movie1/> */}
     <ShoppingListLocalStorage/>
-    <ShoppingList/>
+    <ShoppingList/> 
     {/* <Map/> */}
       <div className='header'>
         <h1 id='title'>   React JS - The Java Script  Library</h1>
