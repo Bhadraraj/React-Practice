@@ -10,7 +10,7 @@ const Movie  = () => {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const response = await fetch('http://localhost:3000/movies');
+        const response = await fetch('http://localhost:3000/movies');      
         const data = await response.json();
         setMovies(data);
       } catch (error) {
